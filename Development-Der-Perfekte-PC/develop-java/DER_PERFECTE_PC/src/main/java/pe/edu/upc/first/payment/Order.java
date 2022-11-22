@@ -1,6 +1,8 @@
 package pe.edu.upc.first.payment;
 import pe.edu.upc.first.business.Computer;
 import pe.edu.upc.first.component.Entity;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
@@ -127,6 +129,22 @@ public class Order {
     }
     public void showListOrder(){
         System.out.println(listOrder.toString());
+    }
+
+    public void toSubscribe() throws IOException {
+        System.out.println("Registration to subscription, be a supplier of products");
+        buyer.addId();
+        buyer.addName(); //pendiente instanciar en buyer
+        buyer.addMail();
+        provider.addPassword();
+        provider.addPhone();
+        card.addOwnerName();
+        card.addCardNumber();
+        card.addCardExDate();
+        card.addCardCVV();
+        card.addCardBrand();
+        System.out.println("U are subscribed, welcome partner");
+        listProvider.add(provider);
     }
 
 }

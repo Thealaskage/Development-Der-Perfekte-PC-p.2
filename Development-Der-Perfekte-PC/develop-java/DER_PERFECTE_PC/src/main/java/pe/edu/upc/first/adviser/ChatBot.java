@@ -53,7 +53,7 @@ public class ChatBot {
                     showResponse();
                     break;
                 case 2:
-                    sendMessageBot(message)
+                    sendMessageBot(message);
                     break;
                 case 3:
                     editProductName(name);

@@ -53,16 +53,16 @@ public class Assistant {
     public void run(){
         System.out.println("Welcome"+ buyer.getName() + "to DerPerfektePc\n");
         System.out.println("\nChoose an option.\n" +
-                "1 - Meet ur ideal computer \n" +
+                "1 - Meet your ideal computer \n" +
                 "2 - ChatBot \n" +
                 "3 - Component Finder\n" +
-                "4 - See ur WishList\n" +
+                "4 - See your WishList\n" +
                 "5 - Add to WishList\n" +
                 "6 - Add to Shopping Cart\n" +
-                "7 - See ur Shopping Cart\n" +
+                "7 - See your Shopping Cart\n" +
                 "8 - Check in \n" +
                 "9 - Be a supplier\n" +
-                "10 - See ur OrderHistory\n" +
+                "10 - See your OrderHistory\n" +
                 "11 - Exit");
 
         int option = 0;

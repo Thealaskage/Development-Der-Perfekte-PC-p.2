@@ -37,7 +37,7 @@ public class Computer {
         this.entity = new Entity();
         this.order = new Order();
     }
-    public Computer(Processor processor, Ram ram, Storage storage, MotherBoard motherboard, GraphicsCard gpu, Case _case, PowerSupply powerSupply, List<Entity> listProduct, Entity entity, Order order) {
+    public Computer(Processor processor, Ram ram, Storage storage, MotherBoard motherboard, GraphicsCard gpu, Case _case, PowerSupply powerSupply) {
         this.processor = processor;
         this.ram = ram;
         this.storage = storage;
@@ -45,9 +45,6 @@ public class Computer {
         this.gpu = gpu;
         this._case = _case;
         this.powerSupply = powerSupply;
-        this.listProduct = listProduct;
-        this.entity = entity;
-        this.order = order;
     }
 
     public Processor getProcessor() {
@@ -180,7 +177,6 @@ public class Computer {
                 ", gpu=" + gpu +
                 ", _case=" + _case +
                 ", powerSupply=" + powerSupply +
-                ", listProduct=" + listProduct +
                 '}';
     }
     public void showListProduct(){

@@ -62,7 +62,6 @@ public class Subscription{
         listProvider.add(provider);
     }
 
-
     public void cancelSubscription(){
         listProvider.remove(listProvider.size() - 1);
     }
